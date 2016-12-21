@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="no.westerdals.shiale14.tictactoe.MainActivity"
+    android:background="@color/colorScreen">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textViewFirstPlayer"
+        android:id="@+id/textViewFirstPlayer"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="@color/colorText"
+        android:layout_above="@+id/editTextSecondPlayer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textViewSecondPlayer"
+        android:id="@+id/textViewSecondPlayer"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textViewFirstPlayer"
+        android:layout_alignStart="@+id/textViewFirstPlayer"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textColor="@color/colorText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextFirstPlayer"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="@color/colorText"
+        android:textIsSelectable="false"
+        android:layout_above="@+id/textViewSecondPlayer"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextSecondPlayer"
+        android:gravity="fill_horizontal"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="@color/colorText"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnStartTxt"
+        android:id="@+id/btnStart"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="@color/colorText"
+        android:background="@color/colorButton"
+        android:textSize="20sp"
+        android:width="140dp"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/tic_tac_toe_image"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/gameTitleImage" />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="textViewTitle">Tic Tac Toe</string>
+    <string name="textViewFirstPlayer">PLAYER 1:</string>
+    <string name="textViewSecondPlayer">PLAYER 2:</string>
+    <string name="btnStartTxt">Start</string>
+    <string name="menuItemResults">Results</string>
+    <string name="textTitleResults">RESULTS</string>
+    <string name="gameTitleImage">gameTitle</string>
+    <string name="resultImage">resultImage</string>
+    <string name="menuItemMain">Home</string>
+    <string name="menuItemReplay">Play again</string>
+    <string name="resultMenuItem">Description</string>
+    <string name="descriptionText">1. When names of the players are written
+        and the \"start\" button is clicked, the application accidentally chooses
+        who will be playing for \"X\" and for \"O\".
+        \n2. The results of sortition is shown on the top of the game board.
+        \n3. The player who plays for X has priority of the first move.
+    </string>
+    <string name="descriptionBtnCloseText">Close</string>
+    <string name="btnMainMenuText">Home</string>
+    <string name="btnPlayAgainText">Play again</string>
+</resources>
